@@ -1,0 +1,44 @@
+html{
+  font-family: Futura;
+}
+.header{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: black;
+  opacity: 0.6;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+body{
+  background-image: url("./imgs/background.jpg");
+}
+
+.about-me{
+  display: flex;
+  flex-direction: column;
+}
+.about-img-p{
+  display: flex;
+  flex-direction: row;
+}
+.about-me img{
+  width: auto;
+  height: 20rem;
+}
+
+footer{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: black;
+  opacity: 0.6;
+}

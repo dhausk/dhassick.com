@@ -1,5 +1,6 @@
 html{
   font-family: Futura;
+  color: white;
 }
 .header{
   color: white;
@@ -8,17 +9,17 @@ html{
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: black;
-  opacity: 0.6;
+  background-color: #2947a6;
+  opacity: 0.9;
 }
 nav a {
-  color: white;
   text-decoration: none;
+  color: white;
 }
 body{
   background-image: url("./imgs/background.jpg");
+  background-repeat: no-repeat;
 }
-
 .about-me{
   display: flex;
   flex-direction: column;
@@ -26,12 +27,38 @@ body{
 .about-img-p{
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 .about-me img{
   width: auto;
   height: 20rem;
 }
-
+.about-p{
+  margin-left: 3vw;
+  background: black;
+  opacity: 0.7;
+  width: 50vw;
+  text-align: center;
+}
+.about-p p{
+margin-top: 5rem;
+}
+.projects{
+  background: black;
+  opacity: 0.7;
+  margin: 2rem;
+}
+.project-sheet{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.project-card{
+  background: gray;
+  opacity: 0.7;
+}
+.tech{}
 footer{
   color: white;
   display: flex;

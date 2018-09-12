@@ -12,9 +12,13 @@ html{
   background-color: #2947a6;
   opacity: 0.9;
 }
+.header h1{
+  font-size: 2.5rem;
+}
 nav a {
   text-decoration: none;
   color: white;
+  font-size: 1.5rem;
 }
 body{
   background-image: url("./imgs/background.jpg");
@@ -58,7 +62,22 @@ margin-top: 5rem;
   background: gray;
   opacity: 0.7;
 }
-.tech{}
+.project img{
+  width: 20vw;
+  height: 20vh;
+}
+.tech{
+
+}
+.contact-me div{
+  display: flex;
+  flex-direction: row;
+}
+.contact-info{
+  display: flex;
+  flex-direction: row;
+}
+
 footer{
   color: white;
   display: flex;

@@ -1,4 +1,4 @@
-const projectImages = document.querySelectorAll('.project-img-desc');
+const projectImages = document.querySelectorAll('.project');
 function displayCardStyles(){
 
 }

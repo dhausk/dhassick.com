@@ -47,6 +47,7 @@ body{
 .about-p p{
 margin-top: 5rem;
 }
+/* project section */
 .projects{
   background: black;
   opacity: 0.7;
@@ -66,6 +67,13 @@ margin-top: 5rem;
   width: 20vw;
   height: 20vh;
 }
+.hidden{
+  display: none;
+}
+.show{
+  display: inherit;
+}
+/* tech section */
 .tech{
 
 }

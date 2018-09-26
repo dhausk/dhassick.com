@@ -1,6 +1,7 @@
-const projectTile = document.querySelectorAll('.project');
+const projectTile = document.querySelectorAll('.project-card');
 const projImages = document.querySelectorAll('.project-image');
-const projDesc = document.querySelector('.project-description');
+const projDesc = document.querySelectorAll('.project-description');
+
 projectTile.forEach(project => {
   project.addEventListener('mouseenter', (event) => {
     showProjDescription(event.target.id);
@@ -9,33 +10,11 @@ projectTile.forEach(project => {
     hideProjectDescription(event.target.id);
   })
 })
-function showProjDescription(proj) {
-  switch (proj) {
-    case "1":
-      swapHidden(0);
-      break;
-    case "2":
-      console.log(proj);
-      break;
-    case "3":
-      console.log(proj);
-      break;
-  };
+function showProjDescription(projNum) {  
+  projImages[projNum].classList.add('hidden')
+  projDesc[projNum].classList.remove('hidden')  
 }
-function hideProjectDescription(proj) {
-  switch (proj) {
-    case "1":
-      console.log(proj);
-      break;
-    case "2":
-      console.log(proj);
-      break;
-    case "3":
-      console.log(proj);
-      break;
-  };
-}
-function swapHidden(currentClass){
-  console.log(currentClass);
-  
+function hideProjectDescription(projNum) {
+  projImages[projNum].classList.remove('hidden')
+  projDesc[projNum].classList.add('hidden') 
 }

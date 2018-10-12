@@ -39,7 +39,7 @@ body{
   height: 20rem;
   border-radius: 10px;
 }
-.about-p{
+.about-div{
   margin-left: 3vw;
   background: black;
   opacity: 0.7;
@@ -48,8 +48,8 @@ body{
   border-radius: 10px;
   
 }
-.about-p p{
-margin-top: 5rem;
+.about-div p{
+  padding: 3rem;
 }
 /* project section */
 
@@ -85,7 +85,7 @@ margin-top: 5rem;
   padding:0.2rem;
 }
 .project a {
-  font-style: none;
+  text-decoration: none;
   color: white;
 }
 .hidden{
@@ -104,10 +104,11 @@ margin-top: 5rem;
   border-radius: 10px;
 }
 .logo-container{
-  margin: 0.5rem;
+  margin: 1rem;
   background: white;
   flex-wrap: wrap;
   border-radius: 10px;
+  padding: 0.5rem;
 }
 .logo-square{
   width: 10vw;
@@ -117,13 +118,27 @@ margin-top: 5rem;
   width: 15vw;
   height: 10vh;
 }
-.contact-me div{
-  display: flex;
-  flex-direction: row;
+.contact-me {
+  background: black;
+  opacity: 0.7;
+  margin: 2rem;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
 }
 .contact-info{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contact-me div{
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-info a{
+  text-decoration: none;
+  color: white;
 }
 
 footer{

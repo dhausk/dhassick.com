@@ -105,13 +105,17 @@ margin-top: 5rem;
 }
 .logo-container{
   margin: 0.5rem;
-  background: gray;
+  background: white;
   flex-wrap: wrap;
   border-radius: 10px;
 }
 .logo-square{
   width: 10vw;
   height: 15vh;
+}
+.logo-rectangle{
+  width: 15vw;
+  height: 10vh;
 }
 .contact-me div{
   display: flex;

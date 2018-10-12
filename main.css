@@ -27,6 +27,8 @@ body{
   background-image: url("./imgs/background.jpg");
   background-repeat: no-repeat;
 }
+
+/* About */
 .about-me{
   display: flex;
   flex-direction: column;
@@ -54,8 +56,8 @@ body{
 .about-div p{
   padding: 3rem;
 }
-/* project section */
 
+/* project section */
 .projects{
   background: black;
   opacity: 0.7;
@@ -80,6 +82,10 @@ body{
   text-align: Center;
   border-radius: 10px;
 }
+.project-description{
+  background: black;
+  opacity: 0.7;
+}
 .project img{
   width: 15vw;
   height: 20vh;
@@ -97,6 +103,7 @@ body{
 .show{
   display: inherit;
 }
+
 /* tech section */
 .tech{
   background: black;
@@ -121,6 +128,8 @@ body{
   width: 15vw;
   height: 10vh;
 }
+
+/* Contact */
 .contact-me {
   background: black;
   opacity: 0.7;
@@ -129,15 +138,16 @@ body{
   text-align: center;
   border-radius: 10px;
 }
+.contact-me div{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 .contact-info{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-}
-.contact-me div{
-  display: flex;
-  justify-content: space-evenly;
 }
 .contact-info img{
   height: 50px;
@@ -147,6 +157,19 @@ body{
   color: white;
 }
 
+/* Resume */
+.resume{
+  background: black;
+  opacity: 0.7;
+  margin: 2rem;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.pdf{
+  text-decoration: none;
+  color: white;
+}
 footer{
   color: white;
   display: flex;

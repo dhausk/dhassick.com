@@ -73,11 +73,15 @@ margin-top: 5rem;
   text-align: Center;
 }
 .project img{
-  width: 20vw;
+  width: 15vw;
   height: 20vh;
 }
 .project-description{
   padding:0.2rem;
+}
+.project a {
+  font-style: none;
+  color: white;
 }
 .hidden{
   display: none;

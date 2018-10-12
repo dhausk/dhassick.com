@@ -37,6 +37,7 @@ body{
 .about-me img{
   width: auto;
   height: 20rem;
+  border-radius: 10px;
 }
 .about-p{
   margin-left: 3vw;
@@ -44,6 +45,7 @@ body{
   opacity: 0.7;
   width: 50vw;
   text-align: center;
+  border-radius: 10px;
   
 }
 .about-p p{
@@ -56,6 +58,8 @@ margin-top: 5rem;
   opacity: 0.7;
   margin: 2rem;
   justify-content: center;
+  text-align: center;
+  border-radius: 10px;
   
 }
 .project-sheet{
@@ -71,12 +75,13 @@ margin-top: 5rem;
   height: 30vh;
   flex-wrap: wrap;
   text-align: Center;
+  border-radius: 10px;
 }
 .project img{
   width: 15vw;
   height: 20vh;
 }
-.project-description{
+.desc-p{
   padding:0.2rem;
 }
 .project a {

@@ -32,6 +32,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .about-me img{
   width: auto;
@@ -43,6 +44,7 @@ body{
   opacity: 0.7;
   width: 50vw;
   text-align: center;
+  
 }
 .about-p p{
 margin-top: 5rem;
@@ -53,6 +55,7 @@ margin-top: 5rem;
   background: black;
   opacity: 0.7;
   margin: 2rem;
+  
 }
 .project-sheet{
   display: flex;
@@ -61,7 +64,11 @@ margin-top: 5rem;
   justify-content: space-around;
 }
 .project-card{
+  margin: 3rem;
   background: gray;
+  width: 20vw;
+  height: 30vh;
+  flex-wrap: wrap;
 }
 .project img{
   width: 20vw;

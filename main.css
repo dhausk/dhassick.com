@@ -38,6 +38,7 @@ body{
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  align-items: center;
 }
 .about-me img{
   width: auto;
@@ -51,17 +52,22 @@ body{
   width: 50vw;
   text-align: center;
   border-radius: 10px;
-  
-}
-.about-div p{
   padding: 3rem;
+font-size: 1.7rem;
 }
-
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*=".about-div"] {
+        padding: 0.2rem;
+        font-size: 1rem; 
+    }
+}
 /* project section */
 .projects{
   background: black;
   opacity: 0.7;
-  margin: 2rem;
+  margin: 1.5rem;
+  padding: 1rem;
   justify-content: center;
   text-align: center;
   border-radius: 10px;
@@ -75,6 +81,8 @@ body{
 }
 .project-card{
   margin: 0.5rem;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
   background: gray;
   width: 20vw;
   height: 30vh;
@@ -87,6 +95,7 @@ body{
   background: black;
   opacity: 0.7;
   height: 20vh;
+  font-size: 1rem;
 }
 .project img{
   width: 15vw;
@@ -110,7 +119,8 @@ body{
 .tech{
   background: black;
   opacity: 0.7;
-  margin: 2rem;
+  margin: 1.5rem;
+  padding:1rem;
   justify-content: center;
   text-align: center;
   border-radius: 10px;

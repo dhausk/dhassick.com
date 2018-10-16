@@ -25,7 +25,6 @@ nav a {
 }
 body{
   background-image: url("./imgs/background.jpg");
-  background-repeat: no-repeat;
 }
 
 /* About */
@@ -52,15 +51,16 @@ body{
   width: 50vw;
   text-align: center;
   border-radius: 10px;
-  padding: 3rem;
-font-size: 1.7rem;
+  padding: 0.2rem;
+  font-size: 0.7rem;
 }
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+@media only screen and (min-width: 768px) {
+
     [class*=".about-div"] {
-        padding: 0.2rem;
-        font-size: 1rem; 
+        padding: 2rem;
+        font-size: 1.7rem; 
     }
+
 }
 /* project section */
 .projects{

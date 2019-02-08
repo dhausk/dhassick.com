@@ -31,6 +31,7 @@ body{
 .about-me{
   display: flex;
   flex-direction: column;
+
 }
 .about-img-p{
   display: flex;
@@ -41,24 +42,25 @@ body{
 }
 .about-me img{
   width: auto;
-  height: 20rem;
+  height: 40vh;
   border-radius: 10px;
 }
 .about-div{
   margin-left: 3vw;
   background: black;
   opacity: 0.7;
+  /* max-width: 75%; */
   width: 50vw;
   text-align: center;
   border-radius: 10px;
-  padding: 0.2rem;
-  font-size: 0.7rem;
+  padding: 1%;
+  font-size: 1.5rem;
 }
-@media only screen and (min-width: 768px) {
-
-    [class*=".about-div"] {
-        padding: 2rem;
-        font-size: 1.7rem; 
+@media screen and (max-width: 768px) {
+    .about-div {
+        padding: 0.5%;
+        font-size: 1rem; 
+        width: 90vw;
     }
 
 }
@@ -119,14 +121,14 @@ body{
 .tech{
   background: black;
   opacity: 0.7;
-  margin: 1.5rem;
-  padding:1rem;
+  margin: 1.5%;
+  padding:1%;
   justify-content: center;
   text-align: center;
   border-radius: 10px;
 }
 .logo-container{
-  margin: 1rem;
+  margin: 1%;
   background: white;
   flex-wrap: wrap;
   border-radius: 10px;

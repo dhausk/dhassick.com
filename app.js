@@ -4,10 +4,10 @@ const projDesc = document.querySelectorAll('.project-description');
 
 projectTile.forEach(project => {
   project.addEventListener('mouseenter', (event) => {
-    showProjDescription(event.target.id);
+    showProjDescription(event.target.id );
   });
   project.addEventListener('mouseleave', (event) => {
-    hideProjectDescription(event.target.id);
+    hideProjectDescription(event.target.id );
   });
 });
 function showProjDescription(projNum) {  

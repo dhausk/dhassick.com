@@ -19,13 +19,13 @@ html{
 nav a {
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-right: 1rem;
 }
 nav a:hover {
   text-decoration: none;
   color: rgb(206, 206, 206);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   
 }
 .header img{
@@ -94,7 +94,7 @@ body{
   padding-bottom: 1rem;
   background: gray;
   width: 20vw;
-  height: 40vh;
+  min-height: 40vh;
   text-align: Center;
   border-radius: 10px;
   justify-content: center;
@@ -106,15 +106,15 @@ body{
     .project-card {
         font-size: 1rem; 
         width: 90vw;
-        height: 60vh;
     }  
 }
 .project-description{
   background: black;
   opacity: 0.7;
-  height: 20vh;
   font-size: 1rem;
   pointer-events: inherit;
+  min-height: 30vh;
+  padding: 0.5rem;
 }
 .project img{
   width: 150px;
@@ -140,6 +140,16 @@ body{
 .show{
   display: inherit;
   pointer-events: inherit;
+}
+@media screen and (max-width: 768px) {
+    .project-card {
+        font-size: 1rem; 
+        width: 90vw;
+    }
+    .project-description {
+      margin: 0.5rem;
+
+    }
 }
 /* tech section */
 .tech{
@@ -217,8 +227,9 @@ body{
   align-content: center;
   align-items: center;
   text-align: center;
+  text-decoration: none;
 }
-.resume h3{
+.resume h2{
   text-decoration: none;
   text-align: center;
   align-self: center;
@@ -236,5 +247,5 @@ footer{
   flex-wrap: wrap;
   background-color: black;
   opacity: 0.6;
-  max-height: 5vh;
+  height: 5vh;
 }

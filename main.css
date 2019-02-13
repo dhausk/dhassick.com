@@ -94,7 +94,7 @@ body{
   padding-bottom: 1rem;
   background: gray;
   width: 20vw;
-  height: 30vh;
+  height: 40vh;
   text-align: Center;
   border-radius: 10px;
   justify-content: center;
@@ -106,6 +106,7 @@ body{
     .project-card {
         font-size: 1rem; 
         width: 90vw;
+        height: 60vh;
     }  
 }
 .project-description{

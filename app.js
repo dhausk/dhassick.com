@@ -14,7 +14,7 @@ function hideProjectDescription(projNum) {
   projDesc[projNum].classList.add('hidden'); 
 }
 projectTile.forEach(project => {
-  if (window.matchMedia('(max-width: 700px)').matches) {
+  if (window.matchMedia('(max-width: 800px)').matches) {
     showFullCard();
   } else {
     project.addEventListener('mouseenter', (event) => {

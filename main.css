@@ -11,6 +11,7 @@ html{
   flex-wrap: wrap;
   background-color: #2947a6;
   opacity: 0.9;
+  
 }
 .header h1{
   font-size: 2.5rem;
@@ -19,6 +20,13 @@ nav a {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
+  margin-right: 1rem;
+}
+nav a:hover {
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+  font-size: 1.7rem;
+  
 }
 .header img{
   height: 50px;
@@ -61,8 +69,7 @@ body{
         padding: 0.5%;
         font-size: 1rem; 
         width: 90vw;
-    }
-    
+    }  
 }
 /* project section */
 .projects{
@@ -82,39 +89,56 @@ body{
   justify-content: space-around;
 }
 .project-card{
-  margin: 0.5rem;
-  padding: 0.5rem;
+  margin: 0.5%;
+  padding: 0.5%;
   padding-bottom: 1rem;
   background: gray;
   width: 20vw;
   height: 30vh;
-  flex-wrap: wrap;
   text-align: Center;
   border-radius: 10px;
   justify-content: center;
+}
+.project{
+  pointer-events: inherit;
+}
+@media screen and (max-width: 768px) {
+    .project-card {
+        font-size: 1rem; 
+        width: 90vw;
+    }  
 }
 .project-description{
   background: black;
   opacity: 0.7;
   height: 20vh;
   font-size: 1rem;
+  pointer-events: inherit;
 }
 .project img{
-  width: 15vw;
-  height: 20vh;
+  width: 150px;
+  height: 200px;
+  pointer-events: inherit;
 }
 .desc-p{
   padding:0.2%;
+  pointer-events: inherit;
 }
 .project a {
   text-decoration: none;
   color: white;
+}
+.project a:hover {
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+  opacity: 1;
 }
 .hidden{
   display: none;
 }
 .show{
   display: inherit;
+  pointer-events: inherit;
 }
 /* tech section */
 .tech{
@@ -151,27 +175,31 @@ body{
   text-align: center;
   border-radius: 10px;
 }
-.contact-me div{
+.contact-me div {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.contact-info{
+.contact-info {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
 }
-.contact-info img{
+.contact-info img {
   height: 50px;
 }
-.contact-info a{
+.contact-info a {
   text-decoration: none;
   color: white;
 }
-
+.contact-info a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  height: 60px;
+}
 /* Resume */
-.resume{
+.resume {
   background: black;
   opacity: 0.7;
   margin: 2rem;
@@ -194,8 +222,9 @@ body{
   text-align: center;
   align-self: center;
   color: white;
- 
-  background-color: blue;
+}
+.resume a:hover {
+  opacity: 0.8;
 }
 footer{
   color: white;
@@ -206,4 +235,5 @@ footer{
   flex-wrap: wrap;
   background-color: black;
   opacity: 0.6;
+  max-height: 5vh;
 }

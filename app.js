@@ -1,9 +1,13 @@
 const projectTile = document.querySelectorAll('.project-card');
 const projImages = document.querySelectorAll('.project-image');
 const projDesc = document.querySelectorAll('.project-description');
+const resumeDisplay = document.querySelector('iframe');
 
 function showFullCard() {
   projDesc.forEach(proj => proj.classList.remove('hidden'));
+}
+function hideResume (){
+  resumeDisplay.classList.add('hidden');
 }
 function showProjDescription(projNum) {  
   projImages[projNum].classList.add('hidden');
@@ -16,6 +20,7 @@ function hideProjectDescription(projNum) {
 projectTile.forEach(project => {
   if (window.matchMedia('(max-width: 800px)').matches) {
     showFullCard();
+    hideResume();
   } else {
     project.addEventListener('mouseenter', (event) => {
       showProjDescription(event.target.id);

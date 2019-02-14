@@ -154,12 +154,10 @@ body{
 }
 .logo-container a {
   text-decoration: none;
-
 }
 .logo-container a:hover {
   text-decoration: none;
   opacity: 0.7;
-
 }
 @media screen and (max-width: 800px) {
   .about-div {

@@ -11,7 +11,6 @@ html{
   flex-wrap: wrap;
   background-color: #2947a6;
   opacity: 0.9;
-  
 }
 .header h1{
   font-size: 2.5rem;
@@ -29,7 +28,6 @@ nav a:hover {
   text-decoration: none;
   color: rgb(206, 206, 206);
   font-size: 1.5rem;
-  
 }
 .header img{
   height: 50px;
@@ -37,7 +35,6 @@ nav a:hover {
 body{
   background-image: url("./imgs/background.jpg");
 }
-
 /* About */
 .about-me{
   display: flex;
@@ -67,13 +64,6 @@ body{
   padding: 1%;
   font-size: 1.5rem;
 }
-@media screen and (max-width: 768px) {
-    .about-div {
-        padding: 0.5%;
-        font-size: 1rem; 
-        width: 90vw;
-    }  
-}
 /* project section */
 .projects{
   background: black;
@@ -82,8 +72,7 @@ body{
   padding: 1rem;
   justify-content: center;
   text-align: center;
-  border-radius: 10px;
-  
+  border-radius: 10px; 
 }
 .project-sheet{
   display: flex;
@@ -104,12 +93,6 @@ body{
 }
 .project{
   pointer-events: inherit;
-}
-@media screen and (max-width: 768px) {
-    .project-card {
-        font-size: 1rem; 
-        width: 90vw;
-    }  
 }
 .project-description{
   background: black;
@@ -144,16 +127,6 @@ body{
   display: inherit;
   pointer-events: inherit;
 }
-@media screen and (max-width: 768px) {
-    .project-card {
-        font-size: 1rem; 
-        width: 90vw;
-    }
-    .project-description {
-      margin: 0.5rem;
-
-    }
-}
 /* tech section */
 .tech{
   background: black;
@@ -179,7 +152,37 @@ body{
   width: 15vw;
   height: 10vh;
 }
+.logo-container a {
+  text-decoration: none;
 
+}
+.logo-container a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+
+}
+@media screen and (max-width: 800px) {
+  .about-div {
+    padding: 0.5%;
+    font-size: 1rem; 
+    width: 90vw;
+  }
+  .project-card {
+    font-size: 1rem; 
+    width: 90vw;
+  }
+  .project-description {
+    margin: 0.5rem;
+  }
+  .logo-square {
+    width: 100px;
+    height: 150px;
+  }
+  .logo-rectangle {
+    width: 150px;
+    height: 100px;
+  }
+}
 /* Contact */
 .contact-me {
   background: black;

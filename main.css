@@ -27,7 +27,7 @@ nav a {
 nav a:hover {
   text-decoration: none;
   color: rgb(206, 206, 206);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .header img{
   height: 50px;
@@ -159,7 +159,7 @@ body{
   text-decoration: none;
   opacity: 0.7;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .about-div {
     padding: 0.5%;
     font-size: 1rem; 

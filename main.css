@@ -15,6 +15,9 @@ html{
 .header h1{
   font-size: 2.5rem;
 }
+.header img{
+  height: 50px;
+}
 nav { 
   text-align: center;
 }
@@ -29,11 +32,10 @@ nav a:hover {
   color: rgb(206, 206, 206);
   font-size: 1.4rem;
 }
-.header img{
-  height: 50px;
-}
+
 body{
-  background-image: url("./imgs/background.jpg");
+  background-color: black;
+  margin: 0;
 }
 /* About */
 .about-me{
